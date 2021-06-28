@@ -1,0 +1,13 @@
+/*ASSIGNMENT 1*/
+/*1.1*/
+SELECT First_Name AS 'WORKER NAME'
+FROM Worker
+
+/*1.2*/
+SELECT DISTINCT Department 
+FROM Worker
+
+/*1.3*/
+SELECT TOP 5*  
+FROM Worker
+ORDER BY ID DESC
